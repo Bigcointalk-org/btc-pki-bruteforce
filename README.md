@@ -5,7 +5,7 @@ A tool for testing the security of pubkey privkey infrastructure used in popular
 "Bitcoin uses public key cryptography to create a key pair that controls access to bitcoin. The key pair consists of a private key and—derived from it—a unique public key. The public key is used to receive funds, and the private key is used to sign transactions and spend funds."
 
 ## Features
- - VERY FAST because it don't communicate with the network
+ - VERY FAST because it doesn't communicate with the network
  - A current (Dec. 2022) list of funded wallets (~1.5GB)
  - Multiple instances (per core)
  - Debug mode for testing
