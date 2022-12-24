@@ -1,7 +1,9 @@
 # btc-pki-bruteforce
+Coming 12-24-2022
+
 A tool for testing the security of pubkey privkey infrastructure used in popular cryptocurrencies.
 
-Coming 12-24-2022
+"Bitcoin uses public key cryptography to create a key pair that controls access to bitcoin. The key pair consists of a private key and—derived from it—a unique public key. The public key is used to receive funds, and the private key is used to sign transactions and spend funds."
 
 ## Features
  - VERY FAST because it don't communicate with the network
