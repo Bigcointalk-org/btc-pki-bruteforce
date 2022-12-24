@@ -11,11 +11,15 @@ A tool for testing the security of pubkey privkey infrastructure used in popular
  - Debug mode for testing
  - Writes findings to file (output.txt)
 
-*Funded Wallets:*
+**Funded Wallets:**
 
-https://bigcointalk.org/download/wallets1.txt
+https://bigcointalk.org/download/wallets1.txt (~377MB)
 
-https://bigcointalk.org/download/wallets2.txt
+https://bigcointalk.org/download/wallets2.txt (~686MB)
+
+or visit...
+
+https://bitcointalk.org/index.php?topic=5254914.0
 
 ## Requirements
 Python3, base58, bit
