@@ -1,5 +1,4 @@
 # btc-pki-bruteforce
-Coming 12-24-2022
 
 A tool for testing the security of pubkey privkey infrastructure used in popular cryptocurrencies.
 
