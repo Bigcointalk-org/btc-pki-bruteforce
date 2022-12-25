@@ -27,5 +27,6 @@ Python3, base58, bit
 ## Todo
 - [ ] Add support for brainwallets
 - [ ] Add support for BIP39 mnemonic
+- [ ] Get balance of matched public key from Mainnet
 
 https://bigcointalk.org/
