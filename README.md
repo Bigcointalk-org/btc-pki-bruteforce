@@ -1,6 +1,8 @@
 # btc-pki-bruteforce
 A tool for testing the security of pubkey privkey infrastructure used in popular cryptocurrencies.
 
+https://discord.gg/PY5SQ3DXmv
+
 https://bigcointalk.org/viewtopic.php?t=7
 
 "Bitcoin uses public key cryptography to create a key pair that controls access to bitcoin. The key pair consists of a private key and—derived from it—a unique public key. The public key is used to receive funds, and the private key is used to sign transactions and spend funds."
