@@ -18,7 +18,7 @@ outputfile = 'output.txt'
 
 def bruteforce(y):
     
-    print(f'Instance y{y + 1}: - Raising hell...')
+    print(f'Instance y{y + 1}: - Starting...')
     
     pkey = PrivateKey()
     
@@ -38,7 +38,7 @@ def bruteforce(y):
 
 def debug_bruteforce(y):
     
-    print(f'Instance y{y + 1}: - Raising hell...')
+    print(f'Instance y{y + 1}: - Starting...')
     
     pkey = PrivateKey()
     for passphrase in wallets:
