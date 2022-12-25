@@ -31,3 +31,5 @@ Python3, base58, bit
 - [ ] Get balance of matched public key from Mainnet
 
 https://bigcointalk.org/
+
+Disclaimer: This article is for informational purposes only. Neither the company nor the author nor GitHub is responsible, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any content, goods or services mentioned here.
