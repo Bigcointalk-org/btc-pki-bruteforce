@@ -29,6 +29,7 @@ Python3, base58, bit
 - [ ] Add support for brainwallets
 - [ ] Add support for BIP39 mnemonic
 - [ ] Get balance of matched public key from Mainnet
+- [ ] Distributed browser-based bruteforce
 
 https://bigcointalk.org/
 
