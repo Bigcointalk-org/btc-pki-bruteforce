@@ -6,7 +6,7 @@ A tool for testing the security of pubkey privkey infrastructure used in popular
 
 ## Features
  - VERY FAST because it doesn't communicate with the network
- - A current (Dec. 2022) list of funded wallets (~1.5GB)
+ - A current list of funded wallets (~1.5GB Dec. 2022)
  - Multiple instances (per core)
  - Debug mode for testing
  - Writes findings to file (output.txt)
