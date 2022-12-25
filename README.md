@@ -24,4 +24,8 @@ https://bitcointalk.org/index.php?topic=5254914.0
 ## Requirements
 Python3, base58, bit
 
+## Todo
+- [ ] Add support for brainwallets
+- [ ] Add support for BIP39 mnemonic
+
 https://bigcointalk.org/
