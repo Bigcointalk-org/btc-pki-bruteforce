@@ -1,20 +1,14 @@
 from privatekey import PrivateKey
 from bit import Key
 from multiprocessing import cpu_count, Process
-from requests import get
-from time import sleep
-#from file_management import FileManagement
 
-with open('wallets-test.txt', 'r') as file:
-    #list of funded wallets
+with open('wallets1.txt', 'r') as file:
     wallets = set(file.read().split('\n'))
     if '' in wallets:
         wallets.remove('')
         
-#inputfile = 'default_wordlist.txt'
+#dictionaryfile = 'dictionary.txt'
 outputfile = 'output.txt'
-#file = FileManagement(outputfile, inputfile)
-#wordlist = file.read_dictionary()
 
 def bruteforce(y):
     
