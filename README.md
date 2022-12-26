@@ -28,7 +28,7 @@ https://bitcointalk.org/index.php?topic=5254914.0
 Python3, base58, bit
 
 ## Todo
-- [ ] Add support for brainwallets
+- [x] Add support for brainwallets
 - [ ] Add support for BIP39 mnemonic
 - [ ] Get balance of matched public key from Mainnet
 - [ ] Distributed browser-based bruteforce
