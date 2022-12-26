@@ -8,8 +8,14 @@ with open('wallets1.txt', 'r') as file:
         wallets.remove('')
         
 #dictionaryfile = 'dictionary.txt'
-outputfile = 'output.txt'
 
+
+
+def write_output(findings):
+    outputfile = 'output.txt'
+    with open(outputfile, 'a') as result:
+        result.write(findings)
+        
 def bruteforce(y):
     print(f'Instance y{y + 1}: - Starting...')
     pkey = PrivateKey()
@@ -20,8 +26,7 @@ def bruteforce(y):
         key1 = Key(wif1)
         key2 = Key(wif2)
         if (key1.address or key2.address) in wallets:
-            with open(outputfile, 'a') as result:
-                result.write(f'P: {passphrase} - C: {key1.address} - U: {key2.address}')
+            write_output(f'P: {passphrase} - C: {key1.address} - U: {key2.address}')
 
 def debug_bruteforce(y):
     print(f'Instance y{y + 1}: - Starting...')
@@ -35,8 +40,7 @@ def debug_bruteforce(y):
         print(f'Instance y{y + 1}: C: {key1.address} U: {key2.address} P: {passphrase} : 0')
         if (key1.address or key2.address) in wallets:
             print(f'y{y + 1} Got a Match! U: {key2.address} C: {key1.address} P: {passphrase}')
-            with open(outputfile, 'a') as result:
-                result.write(f'P: {passphrase} - C: {key1.address} - U: {key2.address}')
+            write_output(f'P: {passphrase} - C: {key1.address} - U: {key2.address}')
                 
 def main():
     menu_string = 'We\'re all mad here.\m\m\m\mA tool by Bigcointalk.org\n\n\n\nSelect bruteforce mode:\n'
